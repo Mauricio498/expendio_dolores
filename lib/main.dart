@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
-import 'screens/login_screen.dart';
+import 'screens/splash_screen.dart';
 
-void main() => runApp(const PedidoLocalApp());
+void main() => runApp(const ExpendioDoloresApp());
 
-class PedidoLocalApp extends StatelessWidget {
-  const PedidoLocalApp({super.key});
-
+class ExpendioDoloresApp extends StatelessWidget {
+  const ExpendioDoloresApp({super.key});
   @override
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'PedidoLocal',
+    title: 'Expendio Dolores',
     theme: ThemeData(
       useMaterial3: true,
       scaffoldBackgroundColor: const Color(0xFFF6F8FB),
@@ -21,6 +20,6 @@ class PedidoLocalApp extends StatelessWidget {
         elevation: 0,
       ),
     ),
-    home: const LoginScreen(),
+    home: const SplashScreen(),
   );
 }

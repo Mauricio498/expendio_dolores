@@ -79,7 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(height: 18),
                   const Text(
-                    'PedidoLocal',
+                    'Expendio Dolores',
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.w900,
@@ -151,7 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: const Text(
-                      'Cuentas de demostración (contraseña: 123456)\n\nCliente: cliente@pedidolocal.mx\nPersonal: personal@pedidolocal.mx\nRepartidor: repartidor@pedidolocal.mx\nAdministrador: admin@pedidolocal.mx',
+                      'Cuentas de demostración (contraseña: 123456)\n\nCliente: cliente@expendiodolores.mx\nPersonal: personal@expendiodolores.mx\nRepartidor: repartidor@expendiodolores.mx\nAdministrador: admin@expendiodolores.mx',
                       style: TextStyle(fontSize: 11, height: 1.5),
                     ),
                   ),

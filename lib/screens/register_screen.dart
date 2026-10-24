@@ -63,7 +63,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         children: [
           const Heading(
             'Crear cuenta',
-            'Formulario de demostración para los perfiles de PedidoLocal.',
+            'Formulario de demostración para los perfiles de Expendio Dolores.',
           ),
           const SizedBox(height: 18),
           DropdownButtonFormField<Role>(

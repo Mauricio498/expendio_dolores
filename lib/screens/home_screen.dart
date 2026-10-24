@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'PedidoLocal · ${user.role.label}',
+                'Expendio Dolores · ${user.role.label}',
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w900,
@@ -423,7 +423,7 @@ class _CartScreenState extends State<CartScreen> {
                     type,
                     type == 'Entrega a domicilio'
                         ? address.text.trim()
-                        : 'Expendio PedidoLocal',
+                        : 'Expendio Dolores',
                   );
                   if (order == null) {
                     feedback(
@@ -884,7 +884,7 @@ class AdminDashboard extends StatelessWidget {
         children: [
           const Heading(
             'Panel administrativo',
-            'Resumen general de PedidoLocal.',
+            'Resumen general de Expendio Dolores.',
           ),
           const SizedBox(height: 12),
           _metric(
