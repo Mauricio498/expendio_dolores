@@ -1,3 +1,3 @@
 # expendio_dolores
 
-A new Flutter project.
+## Flujo de pantallas:
